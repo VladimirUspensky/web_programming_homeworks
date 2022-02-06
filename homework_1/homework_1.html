@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html {
+            width: 900px;
+            height: 100%;
+        }
+         body {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        thead,
+        tfoot {
+            background-color: #3f87a6;
+            color: #fff;
+        }
+        tbody {
+            background-color: #e4f0f5;
+        }
+        caption {
+            padding: 10px;
+            caption-side: top;
+        }
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-family: sans-serif;
+            font-size: .8rem;
+        }
+        td,
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 5px 10px;
+        }
+        td {
+            text-align: center;
+        }
+        textarea {
+            width: 100%;
+            height: 150px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            background-color: #f8f8f8;
+            resize: none;
+        }
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        span {
+            margin: 0 10px;
+        }
+        span:first-of-type {
+            margin-left: 0;
+        }
+        span:last-of-type {
+            margin-right: 0;
+        }
+        p {
+            text-indent: 20px;
+        }
+        .border-img {
+            border: solid 10px red;
+        }
+        ul {
+            list-style-type: none;
+        }
+        ul li::before {
+            color: red;
+            content: "•";
+            padding-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>
+            Google Chrome
+        </h1>
+        <h2>
+            История
+        </h2>
+        <p>
+            На протяжении шести лет главный исполнительный директор Google Эрик Шмидт не поддерживал идею о создании отдельного браузера. Он указывал на то, что <q>Google являлась небольшой компанией</q>, и что он не хотел участвовать в <q>болезненных войнах браузеров</q>. После того как основатели компании Сергей Брин и Ларри Пейдж наняли нескольких разработчиков <b>Mozilla Firefox</b> и создали демоверсию <b>Chrome</b>, Шмидт сказал: <q>она была настолько хорошей, что заставила меня изменить своё мнение</q>.
+            Первоначально <b>Chrome</b> был выпущен только под Windows, позднее <sub>(9 декабря 2009 года)</sub> появились <i>dev- и beta-версии</i> для операционных систем Linux и macOS. Первоначально сборки для этих ОС не обладали полной функциональностью аналогичных бета-версий для Windows <mark>(например, синхронизацией закладок)</mark>, но с появлением ветви <sup>5.0.*</sup> функциональность сборок для всех ОС стала равной
+        </p>
+        <p>
+            <i>2 сентября 2008 компания Google объявила о выпуске собственного браузера Chrome. </i>
+        </p>
+    </div>
+    <div>
+        <h2>Логотип</h2>
+        <img class="border-img" src="images/Google_Chrome_Logo_2008.svg" alt="2008 Logo" width="100" height="100">
+        <img src="images/Google_Chrome_icon_(2011).svg" alt="2011 Logo" width="120" height="120">
+        <img src="images/Google_Chrome_for_Android_Icon_2016.svg" alt="2016 Logo" width="140" height="140">
+        <img src="images/Google_Chrome_2022.svg" alt="2022 Logo" width="160" height="160">
+    </div>
+
+    <div>
+        <h2>Статистика использования</h2>
+        <p>Chrome автоматически отправляет информацию об использовании браузера в Google. Часть механизмов сбора подобной информации может быть отключена пользователем, а часть — нет</p>
+        <table>
+            <caption>Способы сбора информации</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Название</th>
+                    <th scope="col">Отправляемая информация </th>
+                    <th scope="col">Когда срабатывает?</th>
+                    <th scope="col">Отключается?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Установка</th>
+                    <td>Случайно сгенерированный знак, включенный в установочную программу. Используется для измерения доли удачных установок Google Chrome</td>
+                    <td>При установке</td>
+                    <td>Нет</td>
+                </tr>
+                <tr>
+                    <th scope="row">RLZ-идентификатор</th>
+                    <td>Зашифрованная строка, по данным Google, содержащая не идентифицирующую пользователя информацию о том, как браузер был скачан и о первой неделе его использования. Используется для определения эффективности рекламных кампаний. Google предоставляет исходный код для расшифровки этой строки</td>
+                    <td>При поиске через Google; При первом запуске и первом использовании адресной строки</td>
+                    <td>Частично</td>
+                </tr>
+                <tr>
+                    <th scope="row">ID клиента</th>
+                    <td>Уникальный идентификатор, а также данные об использовании и сбоях программы. Управляется настройкой «Помочь улучшить Google Chrome, автоматически отправляя в Google статистику использования и отчеты о сбоях». По умолчанию отключено </td>
+                    <td>Неизвестно</td>
+                    <td>Частично</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <span> </span>
+    <div class="container">
+        <form>
+            <h2>Оставьте отзыв о статье.</h2>
+            <b>Была ли статья полезной?</b><Br>
+            <input type="radio" name="answer" value="a1">Да<Br>
+            <input type="radio" name="answer" value="a2">Нет<Br>
+            <b>Какую оценку вы бы поставили данной статье?</b><Br>
+            <input type="radio" name="answer2" value="a1">1<Br>
+            <input type="radio" name="answer2" value="a2">2<Br>
+            <input type="radio" name="answer2" value="a2">3<Br>
+            <input type="radio" name="answer2" value="a2">4<Br>
+            <input type="radio" name="answer2" value="a2">5<Br>
+            <b>Напишите отзыв о данной статье</b>
+            <textarea rows="10" cols="45" name="text"></textarea>
+            <input type="submit">
+        </form>
+    </div>
+    <span></span>
+    <div>
+        <h2>См. также</h2>
+        <ul>
+            <li>
+                <a target="_blank" rel="noopener noreferrer" href="https://ru.wikipedia.org/wiki/Chromium">Chromium</a>
+            </li>
+            <li>
+                <a target="_blank" rel="noopener noreferrer" href="https://ru.wikipedia.org/wiki/Chrome_OS">Chrome OS</a>
+            </li>
+            <li>
+                <a target="_blank" rel="noopener noreferrer" href="https://ru.wikipedia.org/wiki/Google_Chrome_Frame">Google Chrome Frame</a>
+            </li>
+            <li>
+                <a target="_blank" rel="noopener noreferrer" href="https://ru.wikipedia.org/wiki/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81.%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80">Яндекс.Браузер</a>
+            </li>
+            <li>
+                <a target="_blank" rel="noopener noreferrer" href="https://ru.wikipedia.org/wiki/Comodo_Dragon">Comodo Dragon</a>
+            </li>
+            <li>
+                <a target="_blank" rel="noopener noreferrer" href="https://ru.wikipedia.org/wiki/CoolNovo">CoolNovo</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
